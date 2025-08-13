@@ -12,7 +12,6 @@ on:
     - cron: '0 9 * * *'  # 매일 자정에 실행, (UTC 09:00 | 한국 18:00)
     - cron: '0 12 * * *'  # 매일 자정에 실행, (UTC 12:00 | 한국 21:00)
     - cron: '0 15 * * *' # 매일 자정에 실행, (UTC 15:00 | 한국 00:00)
-  workflow_dispatch: true      # 수동 실행 버튼
 
 jobs:
   update_blog:
